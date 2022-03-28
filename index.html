@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/73d889018c.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <link href="style/style.css" rel="stylesheet" type="text/css">
+    <title>todoNative</title>
+</head>
+<body>
+<div class="bg"></div>
+<main class="container">
+    <div class="wrapper">
+        <form class="form-group">
+                <input class="input" placeholder="Add new task" type="text" maxlength="68">
+            <div class="button-group">
+                <button type="submit" class="btn"><i class="fas fa-plus"></i></button>
+                <button onclick="clearAll()" class="btn"><i class="fas fa-trash-alt"></i></button>
+            </div>
+        </form>
+        <div class="list-group">
+            <ul class="list">
+
+            </ul>
+        </div>
+    </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
