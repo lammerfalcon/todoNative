@@ -33,7 +33,7 @@ form.addEventListener('submit', event => {
 })
 
 function renderTodo(todo) {
-    if (todoItems.length >= 10) {
+    if (todoItems.length >= 8) {
         input.disabled = true;
         input.placeholder = "May be enough?"
     } else {
