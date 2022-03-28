@@ -362,11 +362,7 @@ ul {
 }
 
 .container {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    pointer-events: auto;
+    margin-top: 130px;
 }
 
 .wrapper {
@@ -380,7 +376,7 @@ ul {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    max-width: 600px;
+    max-width: 500px;
     margin: auto;
 }
 .input{
